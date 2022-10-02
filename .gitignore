@@ -1,0 +1,6 @@
+./build
+./node_modules
+.idea
+# Project exclude paths
+/build/
+/node_modules/
