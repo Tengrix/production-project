@@ -4,7 +4,7 @@ const obj: Mods = {
     'hovered': true
 }
 
-export function classNames(cls:string, mods:Mods, additional:string[]):string {
+export function classNames(cls:string, mods:Mods = {}, additional:string[] = []):string {
     return [
         cls,
         ...additional,
