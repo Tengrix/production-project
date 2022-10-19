@@ -21,7 +21,7 @@ export const Button:FC<ButtonPropsType> = (props) => {
     } = props
 
     return (
-        <button className={classNames(s.navbar, {}, [className,s[theme]])} {...otherProps} >
+        <button className={classNames(s.Button, {}, [className,s[theme]])} {...otherProps} >
             {children}
         </button>
     );
