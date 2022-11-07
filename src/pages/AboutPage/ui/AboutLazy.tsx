@@ -1,6 +1,6 @@
-import {lazy} from 'react';
+import { lazy } from 'react';
 
-export const AboutLazy = lazy(()=> new Promise(res=>{
+export const AboutLazy = lazy(() => new Promise((res) => {
     // @ts-ignore
-    setTimeout(()=>res(import('./About')),1500)
-}))
+    setTimeout(() => res(import('./About')), 1500);
+}));
